@@ -49,6 +49,8 @@ public class EjemplosDecimales {
         double doubleporteclado = sc.nextDouble();
         System.out.println(doubleporteclado);
 
+        // base^exponente -> Math.pow(base, exponente)
+        // raiz cuadrada de X -> Math.sqrt(numero)
 
 
     }

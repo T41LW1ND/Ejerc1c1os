@@ -51,7 +51,7 @@ public class Ejercicio09 {
         int horas = minutos / 60;
         // el resto son los minutos que quedan
         int minutosfinales = minutos % 60;
-        System.out.println( "La diferencia entre ambos momentos es:" horas + ":" + minutos + ":"+ segundos);
+        System.out.println( "La diferencia entre ambos momentos es:" + horas + ":" + minutos + ":"+ segundos);
 
 
 
