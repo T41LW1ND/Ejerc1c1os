@@ -13,18 +13,21 @@ public class Ejercicio04 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce la edad: ");
         int edad = sc.nextInt();
-        System.out.println("Introduce el nivel de estudios: ");
+        System.out.println("Nivel de estudios: ");
         int nivel = sc.nextInt();
         System.out.println("Introduce tus ingresos: ");
         int ingresos = sc.nextInt();
 
-       /* if (edad <= 28) {
-            System.out.println("");
-        } if else (edad < 30); {
-            System.out.println("");
+        boolean jasp;
+
+        if (edad <= 28 && nivel > 3 || edad < 30 && ingresos > 28000){
+            jasp = true;
         } else {
-            System.out.println("");
-        }*/
+            jasp = false;
+        }
+        if (jasp) {
+            System.out.println("Eres un joven aunque sobradamente preparado");
+        }
 
     }
 }
